@@ -150,7 +150,6 @@ exports.book_create_post = [
 ];
 
 // Display book delete form on GET.
-
 exports.book_delete_get = asyncHandler(async (req, res, next) => {
   // get book and it's instances
   const [book, allBookInstances] = await Promise.all([
